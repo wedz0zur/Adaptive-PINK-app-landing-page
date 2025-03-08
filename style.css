@@ -548,21 +548,34 @@ td {
 }
 
 footer {
-  height: 197px;
+  height: 117px;
   padding: 0 15% 0 15%;
+  margin-top: 80px;
+}
+
+.logos {
+  width: 150px;
+  height: 50px;
+  background-image: url(./images/logos.PNG);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 200px 0 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logos{
-  width: 500px;
-}
-
-.logos-img {
-  width: 208px;
-  height: 208px;
-  background-image: url(./images/twitter.png);
-  background-size: cover;
-  background-position: center;
+.logo-when_p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #283645;
 }
