@@ -7,181 +7,200 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="Top">
-      <header>
-        <img src="./images/logotype.svg" alt="404" class="logo" />
-        <div class="navigation">
-          <a href="#" class="link">Главная</a>
-          <a href="#" class="link">Фотографии</a>
-          <a href="#" class="link">Конкурс</a>
-          <a href="#" class="link">HTML Academy</a>
-        </div>
+    <section class="top">
+      <header class="header">
+        <img src="./images/logotype.svg" alt="404" class="header__logo" />
+        <nav class="header__navigation">
+          <a href="#" class="header__link">Главная</a>
+          <a href="#" class="header__link">Фотографии</a>
+          <a href="#" class="header__link">Конкурс</a>
+          <a href="#" class="header__link">HTML Academy</a>
+        </nav>
       </header>
       <div class="app">
-        <div class="text">
-          <p class="text-1">Взгляните на жизнь иначе!</p>
-          <button class="app-btn">Скачать приложение</button>
-          <div class="icons">
-            <a href="#" class="app-icons"
+        <div class="app__text">
+          <p class="app__text-line app__text-line--1">Взгляните на жизнь иначе!</p>
+          <button class="app__button">Скачать приложение</button>
+          <div class="app__icons">
+            <a href="#" class="app__icon-link"
               ><img
                 src="./images/apple-logo.svg"
                 alt="Apple logo"
-                class="app-icon"
+                class="app__icon"
             /></a>
-            <a href="#" class="app-icons"
+            <a href="#" class="app__icon-link"
               ><img
                 src="./images/android-logo.svg"
                 alt="Android logo"
-                class="app-icon"
+                class="app__icon"
             /></a>
-            <a href="#" class="app-icons"
+            <a href="#" class="app__icon-link"
               ><img
                 src="./images/microsoft-logo.svg"
                 alt="Microsoft logo"
-                class="app-icon"
+                class="app__icon"
             /></a>
           </div>
-          <p class="text-2">
+          <p class="app__text-line app__text-line--2">
             Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
           </p>
         </div>
-        <div class="app-img"></div>
+        <div class="app__image"></div>
       </div>
     </section>
-    <main>
-      <div class="proposal-child-1">
-        <p class="proposal-child-1-text">
-          Устали от серости мегаполиса? Нам есть, что вам<br />
-          предложить!
-        </p>
-        <div class="phones">
-          <div class="phones-child">
-            <img
-              class="phone"
-              src="./images/iphone screen-1.png"
-              alt="Screen 1"
-            />
-            <img
-              class="phone"
-              src="./images/iphone screen-2.png"
-              alt="Screen 2"
-            />
-            <img
-              class="phone"
-              src="./images/iphone screen-3.png"
-              alt="Screen 3"
-            />
-          </div>
-          <div class="phones-text">
-            <div class="phone-text">
-              <p class="phone-text-1">Поднимает настроение</p>
-              <p class="phone-text-2">
-                Приложение позволит вам победить осеннюю хандру и депрессию
-                буквально в несколько кликов!
-              </p>
+    <main class="main">
+      <div class="proposal">
+        <div class="proposal__intro">
+          <p class="proposal__intro-text">
+            Устали от серости мегаполиса? Нам есть, что вам<br />
+            предложить!
+          </p>
+        </div>
+        <div class="proposal__features">
+          <div class="proposal__phones">
+            <div class="proposal__phones-container">
+              <img
+                class="proposal__phone"
+                src="./images/iphone screen-1.png"
+                alt="Screen 1"
+              />
+              <img
+                class="proposal__phone"
+                src="./images/iphone screen-2.png"
+                alt="Screen 2"
+              />
+              <img
+                class="proposal__phone"
+                src="./images/iphone screen-3.png"
+                alt="Screen 3"
+              />
             </div>
-            <div class="phone-text">
-              <p class="phone-text-1">Меняет мир вокруг</p>
-              <p class="phone-text-2">
-                Сделайте снимок и украсьте его смайликом или текстовой подписью,
-                чтобы усилить эффект.
-              </p>
-            </div>
-            <div class="phone-text">
-              <p class="phone-text-1">Заводит новых друзей</p>
-              <p class="phone-text-2">
-                Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
-                заводите новых.
-              </p>
+            <div class="proposal__features-text">
+              <div class="proposal__feature">
+                <p class="proposal__feature-title">Поднимает настроение</p>
+                <p class="proposal__feature-description">
+                  Приложение позволит вам победить осеннюю хандру и депрессию
+                  буквально в несколько кликов!
+                </p>
+              </div>
+              <div class="proposal__feature">
+                <p class="proposal__feature-title">Меняет мир вокруг</p>
+                <p class="proposal__feature-description">
+                  Сделайте снимок и украсьте его смайликом или текстовой подписью,
+                  чтобы усилить эффект.
+                </p>
+              </div>
+              <div class="proposal__feature">
+                <p class="proposal__feature-title">Заводит новых друзей</p>
+                <p class="proposal__feature-description">
+                  Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
+                  заводите новых.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="proposal-child-2">
-        <div class="proposal-child-2-img"></div>
-        <div class="proposal-child-2-text">
-          <p class="proposal-child-2-text-1">Эффект на 24 часа!</p>
-          <p class="proposal-child-2-text-2">
+    
+      <div class="effect">
+        <div class="effect__image"></div>
+        <div class="effect__text">
+          <p class="effect__title">Эффект на 24 часа!</p>
+          <p class="effect__description">
             Британские ученые провели исследования и доказали, что положительный
             эффект от использования приложения длится целые сутки!
           </p>
-          <a href="#" class="proposal-child-2-link"
-            >Узнать больше об исследовании</a
-          >
+          <a href="#" class="effect__link">Узнать больше об исследовании</a>
         </div>
       </div>
-      <div class="comment">
-        <img src="./images/quotes.svg" alt="" class="comment-img" />
-        <p class="comment-text">
+    
+      <div class="review">
+        <img src="./images/quotes.svg" alt="" class="review__quotes" />
+        <p class="review__text">
           «Это приложение перевернуло мой мир и позволило по-новому взглянуть на
           привычные серые вещи! А еще я познакомился со своей будущей женой в
           комментариях к выложенной фотографии!»
         </p>
-        <p class="comment-autor">Николай Петров</p>
-        <p class="comment-autor-info">25 лет, водитель трамвая</p>
+        <p class="review__author">Николай Петров</p>
+        <p class="review__author-info">25 лет, водитель трамвая</p>
       </div>
-      <section class="table-section">
-        <table>
-          <thead>
-            <tr>
-              <th class="non"></th>
-              <th class="special2">
-                <span>БАЗА</span><br /><span>1,99 USD</span>
+    
+      <section class="pricing">
+        <table class="pricing__table">
+          <thead class="pricing__header">
+            <tr class="pricing__row">
+              <th class="pricing__cell pricing__cell--empty"></th>
+              <th class="pricing__cell pricing__cell--highlight">
+                <span class="pricing__plan">БАЗА</span><br />
+                <span class="pricing__price">1,99 USD</span>
               </th>
-              <th class="special special2">
-                <span>СТАНДАРТ</span><br /><span>3,99 USD</span>
+              <th class="pricing__cell pricing__cell--highlight pricing__cell--special">
+                <span class="pricing__plan">СТАНДАРТ</span><br />
+                <span class="pricing__price">3,99 USD</span>
               </th>
-              <th class="special2">
-                <span>АНЛИМ</span><br /><span>9,99 USD</span>
+              <th class="pricing__cell pricing__cell--highlight">
+                <span class="pricing__plan">АНЛИМ</span><br />
+                <span class="pricing__price">9,99 USD</span>
               </th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td><span class="check">Розовый фильтр</span></td>
-              <td><span class="green-check">✔</span></td>
-              <td><span class="green-check">✔</span></td>
-              <td><span class="green-check">✔</span></td>
+          <tbody class="pricing__body">
+            <tr class="pricing__row">
+              <td class="pricing__cell"><span class="pricing__feature">Розовый фильтр</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--green">✔</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--green">✔</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--green">✔</span></td>
             </tr>
-            <tr>
-              <td><span class="check">Смайлики</span></td>
-              <td><span class="red-cross">✖</span></td>
-              <td><span class="green-check">✔</span></td>
-              <td><span class="green-check">✔</span></td>
+            <tr class="pricing__row">
+              <td class="pricing__cell"><span class="pricing__feature">Смайлики</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--red">✖</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--green">✔</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--green">✔</span></td>
             </tr>
-            <tr>
-              <td><span class="check">Комментарии</span></td>
-              <td><span class="red-cross">✖</span></td>
-              <td><span class="red-cross">✖</span></td>
-              <td><span class="green-check">✔</span></td>
+            <tr class="pricing__row">
+              <td class="pricing__cell"><span class="pricing__feature">Комментарии</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--red">✖</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--red">✖</span></td>
+              <td class="pricing__cell"><span class="pricing__check pricing__check--green">✔</span></td>
             </tr>
           </tbody>
         </table>
       </section>
-      <section class="map-section">
-        <div class="question">
-          <p class="question-text">Остались вопросы?
-            Свяжитесь с нами!</p>
-          <div class="info-ques">
-            <p class="question-p">Звоните:<br><br> <span class="question-sp">+7 (812) 555-66-66</span></p>
-            <p class="question-p">Звоните:<br><br> <span class="question-sp">ул. Большая
-              Конюшенная, 19/8</span></p>
-            <p class="question-p">Пишите:<br><br> <span class="question-sp">mail@htmlacademy.ru</span></p>
+    
+      <section class="contacts">
+        <div class="contacts__info">
+          <p class="contacts__title">Остались вопросы? Свяжитесь с нами!</p>
+          <div class="contacts__details">
+            <p class="contacts__detail">
+              Звоните:<br /><br />
+              <span class="contacts__highlight">+7 (812) 555-66-66</span>
+            </p>
+            <p class="contacts__detail">
+              Приезжайте:<br /><br />
+              <span class="contacts__highlight">ул. Большая Конюшенная, 19/8</span>
+            </p>
+            <p class="contacts__detail">
+              Пишите:<br /><br />
+              <span class="contacts__highlight">mail@htmlacademy.ru</span>
+            </p>
           </div>
         </div>
-        <div class="map">
-         
-        </div>
-        
+        <div class="contacts__map"></div>
       </section>
     </main>
-    <footer>
-      <div class="footer">
-        <img src="./images/logotype blue desktop.svg" alt="404" class="logo" />
-        <div class="logos">
+    <footer class="footer">
+      <div class="footer__content">
+        <img src="./images/logotype blue desktop.svg" alt="404" class="footer__logo" />
+        <div class="footer__social-logos">
+         
         </div>
-        <div style="display: flex; align-items: center;" class="logo-when">
-          <p class="logo-when_p">Разработано &nbsp</p><img style="width: 27; height: 34; object-fit: cover;" src="./images/footer-last.svg" alt="">
+        <div class="footer__developer">
+          <p class="footer__developer-text">Разработано&nbsp;</p>
+          <img
+            src="./images/footer-last.svg"
+            alt="HTML Academy"
+            class="footer__developer-logo"
+          />
         </div>
       </div>
     </footer>
