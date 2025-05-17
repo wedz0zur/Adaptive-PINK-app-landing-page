@@ -1,4 +1,4 @@
-https://wedz0zur.github.io/Adaptive-PINK-app-landing-page/
+
 
 Лендинг по макету в фигма.
 ![Снимок](https://github.com/user-attachments/assets/d2cb383e-bc68-466d-9e18-c0f2f115b4c7)
